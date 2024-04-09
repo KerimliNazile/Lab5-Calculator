@@ -1,0 +1,36 @@
+.calculator {
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  #result {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 80px;
+  }
+  
+  .keys {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: rgb(167, 221, 167);
+    padding: 50px;
+    
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
+  
